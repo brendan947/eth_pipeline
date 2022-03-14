@@ -1,5 +1,5 @@
 import pendulum
-from airflow.operators.python_operator import PythonOperator
+from airflow.operators.python import PythonOperator
 from airflow import DAG
 
 with DAG(
